@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  font-size: 100%;
+  line-height: 1.5rem;
+  background-color: wheat;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2em;
+  line-height: 0.9em;
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+nav img {
+  max-width: 10%;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li,
+div.button {
+  display: block;
+  width: 100%;
+  background-color: #555;
+  text-align: center;
+  font-size: 1.2em;
+}
+div.button {
+  height: 4em;
+  background-color: red;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: red;
+  height: 3em;
+}
+nav ul li a:hover {
+  border: 2px solid black;
+  border-radius: 0.5em;
+}
+.active {
+  color: green;
+  border: 0.2em solid green;
+  border-radius: 0.5em;
+}
+header {
+  background-image: url(images/beans.jpg);
+  padding: 3em;
+  text-align: center;
+  color: white;
+  border-bottom: 0.5em solid chocolate;
+}
+header h1 {
+  font-size: 8em;
+  padding-top: 0.5em;
+  margin-bottom: 0.75em;
+}
+header p {
+  margin-top: 1em;
+  font-size: 2em;
+  font-family: fantasy;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+a.btn {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: red;
+  color: #000;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 2em;
+  text-decoration: none;
+}
+blockquote {
+  padding: 1em;
+  background-color: darkkhaki;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: center;
+}
+.title {
+  padding: 1em;
+  line-height: 3em;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: chocolate;
+  background-color: chocolate;
+}
+.articals {
+  margin: 2em;
+}
+.articals section {
+  text-align: center;
+}
+.articals section p {
+  text-align: justify;
+  line-height: 2em;
+}
+.articals section img {
+  width: 100%;
+  border-radius: 5px;
+}
+a.blue {
+  color: #4a4594;
+}
+a.sky {
+  color: #2d99d8;
+}
+a.black {
+  color: #1b11af;
+}
+a.red {
+  color: red;
+}
+footer#second {
+  padding: 2rem;
+  text-align: center;
+  color: red;
+  background-color: chocolate;
+  text-transform: uppercase;
+  text-shadow: 0.2em 0.2em black;
+  border-radius: 0.5em;
+  line-height: 3em;
+}
+@media screen and (min-width: 600px) {
+  nav {
+    background-color: #555;
+  }
+  nav ul li {
+    display: inline-block;
+    width: 8em;
+  }
+  .articals section {
+    float: left;
+    width: 31.42%;
+    margin-right: 2.85%;
+  }
+  .articals section:last-child {
+    margin-right: 0;
+  }
+  .articals section img {
+    height: 23em;
+  }
+  .articals section p {
+    height: 22em;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 200px) {
+  .small section {
+    float: left;
+  }
+  .small section:last-child {
+    margin-right: 0;
+  }
+  .small section h2 {
+    font-size: 1.8em;
+  }
+}
