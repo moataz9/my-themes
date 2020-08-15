@@ -1,0 +1,375 @@
+/*
+  Shraq Stores css file
+*/
+body {
+  direction: rtl;
+  height: 3000px
+}
+
+/* Start Header */
+header {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+header .login:first-child {
+  margin-right: 2px
+}
+header .login {
+  padding-left: 25px;
+  border-left: 3px solid #ccc;
+  margin-left: 23px;
+  padding-bottom: 8px
+}
+header .login a {
+  color: #999;
+  font-size: 1.1em;
+  text-decoration: none
+}
+header .cus-service {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 550
+}
+/* End Header */
+/* Start logo Section */
+.logo-section {
+  padding-top: 30px;
+  margin-right: 0;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 30px
+}
+.logo-section .logo {
+  margin-right: 15px
+}
+.logo-section .f-s-search {
+  display: flex;
+  flex-flow: column;
+  justify-content: center
+}
+.logo-section .shop-cart {
+  font-size: 1.3em;
+  position: relative;
+  padding-top: 5px;
+}
+.logo-section .shop-cart i {
+  font-size: 1.4em
+}
+.logo-section .shop-cart .n-items {
+  position: absolute;
+  bottom: 18px;
+  left: 17px;
+  background-color: #fbac37;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: .9em
+}
+.logo-section .like {
+  font-size: 1.4em;
+  padding-top: 5px
+}
+.logo-section .custom-select {
+  border: none
+}
+.logo-section .custom-select:first-child {
+  font-size: 1.2em;
+  color: #000;
+  font-weight: 450
+}
+.logo-section .search-sec {
+  position: relative;
+  top: -42px;
+}
+.logo-section .search-sec a {
+  background-color: #fbac37;
+  color: #000;
+  text-decoration: none;
+  width: 15%;
+  padding: 12px;
+  text-align: center;
+  position: absolute;
+  top: 21px;
+  right: 0;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.logo-section .search-sec input {
+  width: 86%;
+  padding: 8px;
+  border: 4px solid #fbac37;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  direction: ltr;
+  position: absolute;
+  left: 0;
+  top: 21px
+}
+/* End logo Section */
+/* Start Categorise Section */
+.categorise {
+  padding-top: 40px;
+}
+
+.categorise h3 {
+  border: 3px solid #ccc;
+  background-color: #fbac37;
+  padding: 15px;
+  margin-bottom: 0;
+}.categorise .cats {
+  border: 3px solid #ccc
+}
+.categorise .cats li:first-child {
+  padding-top: 30px
+}
+.categorise .cats li {
+  padding-right: 10px;
+  padding-top:15px;
+  padding-bottom:15px;
+  border-bottom: 1px solid #000;
+  margin-right: -39px
+}
+.categorise .cats li a {
+  text-decoration: none;
+  color: #000;;
+  font-size: 1.2em
+}
+.categorise .cat-header {
+  padding: 20px;
+  border-top: 2px solid #Ccc;
+  border-bottom: 2px solid #Ccc;
+  font-size: 1.2em
+}
+.categorise .cat-header a{
+  text-decoration: none;
+  color: #000
+}
+.categorise .cat-header .cat-name {
+  padding-right: 10px;
+  padding-left: 15px;
+  border-left: 2px solid #ccc
+}
+.categorise .cat-header .cat-name:first-child {
+  padding-right: 0;
+}
+.categorise .cat-header .cat-name:last-child {
+  border-left: none
+}
+.categorise .cats-images img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .categorise .cats-images img {
+    width: 100%;
+  }
+}
+/**/
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fbaeb1
+}
+.carousel-indicators .active {
+  background-color: #fbac37;
+  border-radius: 5px;
+}
+/**/
+/* End Categorise Section */
+/* Start Ads Section */
+.ads img {
+  width: 100%
+}
+/* End Ads Section */
+/* Start Sells Section */
+.sells h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.sells .arrows {
+  position: relative;
+  bottom: 40px;
+  left: 95%
+}
+.sells .arrows i{
+  background-color: #f5f5f5;
+  padding: 5px;
+  border-radius: 4px
+}
+.sells h3::after{
+  content: "";
+  width: 10%;
+  height: 3px;
+  background-color: #fbac37;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+.sells s {
+  padding-right: 10px
+}
+/**/
+.sells .badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  font-size: 1.1em;
+  padding: 6px
+}
+.sells .card,
+.sells .card-footer {
+  border: none;
+}
+.sells .card {
+  margin-top: 20px;
+}
+/**/
+.sells .card .image-con {
+  overflow: hidden;
+}
+.sells .card img {
+  max-width: 100%;
+  transform: scale(1);
+  transition: all .3s ease
+}
+.sells .card img:hover {
+  transform: scale(1.1)
+}
+.sells .card-body {
+  padding: 0;
+}
+.sells .card-body h5 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.sells .card-body .rate {
+  margin-right: 40px;
+  padding-left: 10px;
+  border-left: 3px solid #ccc
+}
+.sells .card-body .rates {
+  padding-right: 10px;
+  padding-left: 8px;
+}
+.sells .card-body .card-text > i {
+  font-size: .8em
+}
+.sells .card-body .card-text > i.color {
+  color: #fbac37
+}
+.sells .card-body .price {
+  padding-left: 15px;
+  font-size: 1.3em;
+  font-weight: 500
+}
+.sells .card-body .my-card-footer i {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 1.5em
+}
+.sells .card-body .card-footer  {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+}
+/* End Sells Section */
+/* Start B-Sells Section */
+.b-sells img {
+  width: 100%
+}
+/* End B-Sells Section */
+/* Start Sells 2 */
+.sells-2 .s-2-header {
+  position: relative
+}
+.sells-2 .s-2-header:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 7px;
+  right: 0;
+}
+.sells-2 .s-2-header h5.color{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #fbac37;
+}
+/**/
+.sells-2 img {
+  width: 100%
+}
+.sells-2 .badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  font-size: 1.1em;
+  padding: 6px
+}
+.sells-2 .card {
+  border: none;
+}
+/**/
+.sells-2 .card .image-con {
+  overflow: hidden;
+}
+.sells-2 .card img {
+  max-width: 100%;
+  transform: scale(1);
+  transition: all .3s ease
+}
+.sells-2 .card img:hover {
+  transform: scale(1.1)
+}
+.sells-2 .card-body {
+  padding: 0;
+}
+.sells-2 .card-body h5 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.sells-2 .card-body i {
+  font-size: 1.3em;
+  color: #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* End Sells-2 Section */
+/* Start trusted Section */
+.trusted {
+  border: 2px solid #ccc;
+}
+.trusted p {
+  display: inline-block
+}
+/* End trusted Section */
+/* Start Footer */
+footer ul {
+  padding: 0
+}
+footer .trus-1 a {
+  color: #fbac37
+}
+footer a {
+  color: #000
+}
+footer a:hover {
+  text-decoration: none;
+  color: #fbac37
+}
+footer .socail i {
+  font-size: 1.2em;
+  padding-top: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 5px
+}
+/* End Footer */
